@@ -1,5 +1,5 @@
 import express from 'express';
-import { ApiRoutes } from '../api';
+import { ApiRoutes } from '..';
 
 const app = express();
 const apiRoutes = new ApiRoutes();

@@ -7,7 +7,7 @@ export class GeneroController {
     this.generoService = new GeneroService();
   }
 
-  async getGeneros(req: Request, res: Response) {
+  async getGeneros(_req: Request, _res: Response) {
   }
 
 }

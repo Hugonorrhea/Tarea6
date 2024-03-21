@@ -4,7 +4,7 @@ import { User } from '../usuarios/usuarios.interface';
 export class UserService {
     static async getUserById(userId: string): Promise<User | undefined> {
         return new Promise<User>((resolve, reject) => {
-            const query = 'SELECT * FROM users WHERE id = ?';
+            const query = 'SELECT * FROM users WHERE id_user = ?';
             connection.query(query, [userId], (error, results) => {
                 if (error) {
                     reject(error);
