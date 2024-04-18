@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { GeneroRoutes } from './api/genero/genero.routes';
+import { GeneroRoutes } from './genero/genero.routes';
 
 export class ApiRoutes {
   router: Router;
