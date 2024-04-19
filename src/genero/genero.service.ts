@@ -1,4 +1,4 @@
-import { IGenero } from './genero.interface';
+import { IGenero } from "./IGenero";
 export class GeneroService {
   async getGeneros(): Promise<IGenero[]> {
   }

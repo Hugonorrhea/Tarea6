@@ -1,5 +1,5 @@
 export interface SessionProduct  {
-    fk_sesion: number;
-    fk_producto: number;
-    cantidad: number;
+    fk_sesion: 1;
+    fk_producto: 1;
+    cantidad: 1;
 }

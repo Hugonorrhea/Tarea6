@@ -1,5 +1,5 @@
 export interface User {
-    id_user: number;
+    id_user: 1;
     name: string;
     last_name?: string | null;
     created_date: Date;
